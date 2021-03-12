@@ -5,7 +5,7 @@ body {
 
 #container {
 	width: 1080px;
-	height: 900px;
+	height: 1000px;
 	margin: 0 auto;
 	border: 1px solid red;
 }
@@ -19,11 +19,22 @@ a:hover {
 	color: #44d9e6;
 }
 
+p {
+	padding: 0 5px 0 5px;
+}
+
+h3 {
+	padding: 0 5px 0 5px;
+}
+
 #logo {
 	height: 100px;
 	background: #666;
 	border: 1px solid red;
-	
+}
+
+#img-logo {
+	box-shadow: 5px 5px black;
 }
 
 #menu-superior ul {
@@ -53,11 +64,81 @@ a:hover {
 }
 
 #conteudo {
-	width: 820px;
+	width: 815px;
+	height: 1000px;
 	border: 1px solid red;
-	margin-left: 255px;
+	margin-left: 260px;
+	display: block;
 }
 
-#conteudo h2 {
-	font-size: 1.2em;
+#conteudo#item {
+	border: 1px solid red;
+	width: 900px;
 }
+
+#coluna-um, 
+#coluna-dois, 
+#coluna-tres {
+	float: left;
+	width: 200px;
+	text-align: justify;
+	box-shadow: 3px 3px 5px black;
+	padding: 5px;
+	background-color: #fff;
+
+}
+
+#coluna-um {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#coluna-dois {
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+#item h2 {
+	font-size: 1.2em;
+	background-color: #666;
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+	border: 1px solid red;
+	padding-left: 10px; 
+}
+
+#item2 h2 {
+	font-size: 1.2em;
+	background-color: #666;
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 270px;
+	border: 1px solid red;	
+	padding-left: 10px;
+}
+
+#videos h2 {
+	font-size: 1.2em;
+	background-color: #666;
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 270px;
+	border: 1px solid red;
+	padding-left: 10px;
+}
+
+#item img {
+	border: 1px solid black;
+	height: 110px;
+	border-radius: 5px;
+}
+
+#item2 img {
+	border: 1px solid black;
+	height: 110px;
+	border-radius: 5px;
+}
+
